@@ -1,0 +1,14 @@
+node_modules/
+dist/
+
+.codesandbox/
+.devcontainer/
+
+.env
+.env.*
+
+*.log
+*.tsbuildinfo
+
+.DS_Store
+Thumbs.db
