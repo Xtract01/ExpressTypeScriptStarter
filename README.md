@@ -1,17 +1,59 @@
-# Node.js Express template
+# Express TypeScript Starter
 
-This is a Node.js Express project with an HTTP server.
+A minimal Node.js + TypeScript starter template for building backend applications.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io).
+## Features
 
-## How does this work?
+* TypeScript
+* Node.js
+* CommonJS module system
+* Strict TypeScript configuration
+* Ready for Express or other backend frameworks
 
-We run `yarn start` to start an HTTP server that runs on http://localhost:8080. You can open new or existing devtools with the + button next to the devtool tabs.
+## Getting Started
 
-## Resources
+### Install dependencies
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs)
-- [CodeSandbox — Community](https://codesandbox.community)
-# ExpressTypeScriptStarter
-# ExpressTypeScriptStarter
-# ExpressTypeScriptStarter
+```bash
+npm install
+```
+
+### Run in development
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Start production build
+
+```bash
+npm start
+```
+
+## Project Structure
+
+```text
+src/
+├── index.ts
+
+dist/          # Generated after build
+```
+
+## Scripts
+
+```bash
+npm run dev     # Development
+npm run build   # Compile TypeScript
+npm start       # Run compiled JavaScript
+```
+
+## License
+
+MIT
+
