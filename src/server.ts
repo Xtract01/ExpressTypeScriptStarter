@@ -1,11 +1,11 @@
 import express from "express";
+import { serverConfig } from "./config";
+import pingRouter from "./routers/ping.router";
+
 const app = express();
-const PORT = 3000; // implicitly assumed type as number
 
-app.get("/ping", (req, res) => {
-  res.send("Pong");
-});
+app.use(,pingRouter);
 
-app.listen(PORT, () => {
-  console.log(`Server running on Port ${PORT}`);
+app.listen(serverConfig.PORT, () => {
+  console.log(`Server running on Port ${serverConfig.PORT}`);
 });
