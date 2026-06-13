@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "npx ts-node src/server.ts",
+    "dev" :"npx nodemon src/server.ts"
   },
   "keywords": [],
   "author": "Anirudh",
